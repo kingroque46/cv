@@ -1,131 +1,64 @@
-<!DOCTYPE html> <!--Shortcut is "! then Enter"-->
-<html lang="en"> <!--Means the language of the html is english-->
-    <head>
-        <meta charset="UTF-8"> <!--All the text in this .html is coded with UTF-8(standard)-->
-        <title>👑King's Personal Site</title> <!--used emoji in unicode-table.com -->
-    </head>
-    <body>
-        <table cellspacing="20">
-            <tr>
-                <td> <!--u can also upload ur pic in photobucket.com to access ur pic via url-->
-                    <img src="Image/Dp.jpg" height="300px" width="300px" alt="King profile pic" style="border-radius:50%">
-                </td>
-                <td>
-                    <h1>King Roque C. Aranas</h1>
-                    <p><em>Computer <strong><a href="https://en.wikipedia.org/wiki/Engineering">Engineering</a></strong> Student.</em></p> <!-- p = paragraph, em = italicize, strong = bold--> <!-- Anchor tag <a>-->
-                    <p>I am a Computer Engineering student graduated in LPU-Batangas</p>
-                </td>
-            </tr>
-        </table>
-        <hr><!--Horizontal line-->
-        <h3>Education</h3>
-<!--Example of table tag-->
-        <table cellspacing = "10px"> <!-- means structure/indented together-->
-            <thead>
-                <tr> <!--Row 1-->
-                    <th>Date</th> <!--Row1 Col1-->
-                    <th>School</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2004-2010 (ref)</td> <!--table data Row2 Col1-->
-                    <td>L.P.E.S (ref)</td>
-                </tr>
-            </tbody>
-            <tfoot>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>King Rqque</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="icon/favicon.ico">  <!--favicon.ico = icon generator for your website-->
+</head>
+<body>
+<!--TOP CONTAINER-->
+    <div class="top-container"> <!--Content division-->
+        <img class="cloud1" src="img/cloud.png" alt="">
+        <h1>I'm King.</h1>
+        <p>a front-end developer.</p>
+        <img class="cloud2" src="img/cloud.png" alt="">
+        <img src="img/mountain.png" alt="">
+    </div>
 
-            </tfoot>
-<!--End of thead, tbody and tfoot tag example-->
-            <tr><!--Table row-->
-                <td>2004-2010</td> <!--table data-->
-                <td>L.P.E.S</td>
-            </tr>
-            <tr>
-                <td>2010-2014</td>
-                <td>GFLMNHS</td>
-            </tr>
-            <tr>
-                <td>2014-2019</td>
-                <td>LPU-Batangas</td>
-            </tr>
-        </table>
+<!--MIDDLE CONTAINER-->
+    <div class="middle-container">
+        <div class="profile">
+          <img class="dp" src="img/Dp.jpg" alt="My picture">
+          <h2>Hello.</h2>
+          <p>I'm a front-end developer seeking for my first job. This portfolio is what i've developed so far to present my skils. </p>
+        </div>
+        <hr class="">
+        <div class="skills">
+          <h2>My Skills</h2>
+          <div class="skill-row1">
+            <img class="java-icon" src="https://img.icons8.com/color/240/000000/java-coffee-cup-logo--v1.png"/ alt="Java Icon">
+            <h3 class="skills-row-title">Java</h3>
+          </div>
+          <div class="skill-row2">
+            <img class="html-icon" src="https://img.icons8.com/color/240/000000/html-5--v1.png"/ alt="Html Icon">
+            <h3 class="skills-row-title">HTML5</h3>
+          </div>
+          <div class="skill-row3">
+            <img class="css-icon" src="https://img.icons8.com/color/240/000000/css3.png" alt="Css Icon"/>
+            <h3 class="skills-row-title">CSS3</h3>
+          </div>
+          <div class="skill-row4">
+            <img class="js-icon" src="https://img.icons8.com/color/240/000000/javascript--v1.png" alt="JAVASCIPT Icon"/>
+            <h3 class="skills-row-title">JAVASCRIPT</h3>
+          </div>
+        </div>
         <hr>
-<!--SKILLS-->
-<h3>Skills</h3>
-<!--Instructor's version of Skills-->
-        <table>
-            <tr>
-                <td>
-                <!--Copied the table here inside the td-->
-                <table cellspacing ="5px">
-                    <tr>
-                        <th>Java</th> <!--row1col1--> 
-                        <td>★★★✰✰</td><!--row1col2-->
-                    </tr>
-                    <tr>
-                        <th>HTML</th><!--row2col1-->
-                        <td>★★★✰✰</td><!--row2col2-->
-                    </tr>
-                    <tr>
-                        <th>CSS</th>
-                        <td>★★★✰✰</td>
-                    </tr>
-                    <tr>
-                        <th>JAVASCRIPT</th>
-                        <td>★★★✰✰</td>
-                    </tr>
-                </table>
-                </td>
-                <td>
-                <!--Also copied the 2nd table (Column 2)-->
-                <table cellspacing ="5px">
-                    <tr>
-                        <th>Java</th>
-                        <td>★★★✰✰</td>
-                    </tr>
-                    <tr>
-                        <th>HTML</th>
-                        <td>★★★✰✰</td>
-                    </tr>
-                    <tr>
-                        <th>CSS</th>
-                        <td>★★★✰✰</td>
-                    </tr>
-                    <tr>
-                        <th>JAVASCRIPT</th>
-                        <td>★★★✰✰</td>
-                    </tr>
-                </table>
-                </td>
-            </tr>
-        </table>
-
-<!--My verision of SKills-->
-        <table cellspacing ="5px" style="width: 50%">
-            <tr>
-                <th>Java</th> <!--row1col1--> <td>★★★✰✰</td><!--row1col2-->
-                <th>Networking</th><!--row1col3--><td>★★★✰✰</td><!--row1col4-->
-            </tr>
-            <tr>
-                <th>HTML</th><!--row2col1-->
-                <td>★★★✰✰</td><!--row2col2-->
-            </tr>
-            <tr>
-                <th>CSS</th>
-                <td>★★★✰✰</td>
-            </tr>
-            <tr>
-                <th>JAVASCRIPT</th>
-                <td>★★★✰✰</td>
-            </tr>
-        </table>
-        
-        <hr>
-        
-        
-        <a href="hobbies.html">My Hobbies</a>
-        <br>
-        <a href="Contact.html">Contact me</a>
-    </body>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>If your looking for a front-end developer please contact me.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet facere numquam ex in sit recusandae, facilis consequuntur, distinctio sed odit voluptatibus ratione esse porro eos error dolore reiciendis magni illo!</p>
+          <a class="btn" href="aranasking146@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+<!--BOTTOM CONTAINER-->
+      <div class="bottom-container">
+        <img class="linkedin-icon"src="https://img.icons8.com/color/40/000000/linkedin.png" alt="Linkedin Icon">
+        <img src="https://img.icons8.com/color/40/000000/gmail-new.png"/>
+        <img src="https://img.icons8.com/ios-filled/40/000000/github.png"/>
+        <p>© 2021 King Roque Aranas.</p>
+      </div>
+    
+</body>
 </html>
