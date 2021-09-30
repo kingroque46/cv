@@ -1,0 +1,89 @@
+/* 
+                BOX property
+ex. {border-width: 0px 10px 20px 30px;}
+                      top  right  bot  left
+
+padding = distance from the element and the border ex. border>|---padding----|element|---padding----|<border 
+margin - distance outside the border
+        "YOU CAN SEE IT STYLES OF TH DEV TOOLS CHROME"
+*/
+/*
+            DISPLAY: property 
+1. Block
+2. Inline
+3. Inline-Block = to make a block in line 
+4. none = display none
+ 
+Sample of Block 
+<p>  
+p{ display:inline-block;} // to make it inline
+u can use <span> = inline display element    
+ex.
+html
+<p> im a <span class="pro">pro</span>grammer </p> = edit only inline element not whole block 
+css
+.pro{ text-decoration: underline;}
+*/
+/*
+//////Position Property
+1.Static = default
+2.Relative = When u move an element with a relative position.  The other element keep their own position.
+3.Absolute = we are positioning the element that is inside an element. it affect the position of the elements. Taking the element out of the flow. A lot easier when moving element
+4. Fixed = it will stay in its position even though you scroll down. for nav 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap'); /*imported via fonts.google.com*/
+
+body{
+    margin: 0; /* Override the default margin*/
+    text-align: center;
+}
+h1 {
+    margin-top: 0; /* Override the default margin*/
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+} 
+h2{
+    font-family: 'Merriweather', serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.cloud1{
+    position: relative;
+    left: 225px;
+}
+.cloud2{
+    position: absolute;
+}
+
+.top-container{
+    background-color: #63B4B8;
+    position: relative;
+    padding-top: 100px;
+}
+
+/*MIDDLE CONTAINER*/
+.middle-container{
+
+}
+.dp{
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.java-icon{
+    width: 300px;
+    height: 300px;
+}
+.skills-row-title{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*BOTTOM CONTAINER*/
+.bottom-container{
+
+}
+.linkedin{
+  
+}
